@@ -1,0 +1,50 @@
+/* video.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 640;
+} */
+
+#cameraArea {
+  position: relative;
+  margin: 0 auto;
+}
+
+p.message {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#emoticonBar {
+  position: absolute;
+  top: 0;
+  right: 25;
+  width: 40px;
+  height: 480px;
+  border-right: #DDD solid 6px;
+}
+
+#emoticon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #CCC;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+  transform: rotate(90deg);
+  transition: bottom 0.3s;
+}
